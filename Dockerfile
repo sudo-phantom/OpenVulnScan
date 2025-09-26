@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:24.10
 
 # Install nmap and Python
 RUN apt-get update && apt-get install -y systemd nmap python3 python3-pip whatweb && apt-get clean && rm -rf /var/lib/apt/lists/*

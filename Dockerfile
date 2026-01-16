@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:24.10
 
 # Install nmap and Python
 RUN pip3 uninstall -y bcrypt py-bcrypt || true
